@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css task</title>
+	<style type="text/css">
+		.main{
+			width: 240px;
+			height: 70px;
+			background: black;
+			color: white;
+			margin: 220px auto;
+			text-align: center;
+			line-height: 70px;
+			font-family: monospace;
+			font-size: 30px;
+			font-weight: bold;
+			position: relative;
+			overflow: hidden;
+		
+		}
+		.child{
+			width: 260px;
+			height: 70px;
+			background: lightseagreen;
+			position: absolute;
+			top: 88%;
+			left: -110%;
+			transition: 1s;
+		}
+		.main:hover .child{
+			left: 0%;
+		}
+	</style>
+</head>
+<body>
+    <div class="main">
+    	MEN'S WEAR
+    	<div class="child">
+    		 
+    	</div>
+    </div>
+</body>
+</html>

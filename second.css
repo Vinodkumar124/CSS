@@ -1,0 +1,18 @@
+.sk{
+	font-family: cursive;
+			text-align: center;
+			color:rgb(145, 202, 109) ;
+			background: gray;	
+}
+.gk{
+	font-family: serif;
+			text-align: center;
+			color:rgb(14, 22, 19) ;
+			background: yellowgreen;	
+}
+.pk{
+	font-family: unset;
+			text-align: center;
+			color:rgb(11, 21, 10) ;
+			background: yellowgreen;	
+}

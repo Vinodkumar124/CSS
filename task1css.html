@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task</title>
+	<style type="text/css">
+		.main{
+             height: 50px;
+             width: 150px;
+             background: black;
+             margin: 250px auto;
+             border-radius: 50px;
+             text-align: center;
+             line-height: 50px;
+             font-size: 28px;
+             font-weight: bolder;
+             color: white;
+             position: relative;
+             overflow: hidden;
+             z-index: 0;
+
+		  }
+		  .effect{
+		  	height: 50px;
+		  	width: 200px;
+		  	background: linear-gradient(red,blue);
+		  	position: absolute;
+		  	top: 0%;
+		  	left: -133%;
+		  	z-index: -1;
+		  	transition: 3s;
+		  
+		  }
+		  .main:hover .effect{
+		  	left: 0%;
+		  }
+	</style>
+</head>
+<body>
+     <div class="main">
+     	TANVI
+     	<div class="effect"></div>
+     </div>
+</body>
+</html>
